@@ -7,6 +7,7 @@ import useMediaQuery from "@material-ui/core/useMediaQuery";
 import bgDesktop from "../images/bg-tablet-pattern.svg";
 import Banner from "./Banner";
 import { useTheme } from "@material-ui/core/styles";
+import Section from "./Section";
 
 //FFF0EC
 export default function App() {
@@ -28,6 +29,7 @@ export default function App() {
       ></div>
       <Header />
       <Banner />
+      <Section />
       <Footer />
     </ThemeProvider>
   );

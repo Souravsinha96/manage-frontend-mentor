@@ -40,7 +40,18 @@ export default createMuiTheme({
       color: darkBlue,
       fontWeight: 700,
     },
-
+    h2: {
+      fontFamily: "Be Vietnam",
+      fontSize: "32px",
+      color: darkBlue,
+      fontWeight: 700,
+    },
+    h3: {
+      fontFamily: "Be Vietnam",
+      fontSize: "18px",
+      color: darkBlue,
+      fontWeight: 700,
+    },
     body1: {
       fontFamily: "Be Vietnam",
       fontSize: "18px",
