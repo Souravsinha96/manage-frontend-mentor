@@ -11,6 +11,7 @@ export default createMuiTheme({
       blue: darkBlue,
       red: brightRed,
       dark: veryDarkBlue,
+      grey: lightGrey,
     },
     primary: {
       main: darkBlue,
@@ -55,6 +56,12 @@ export default createMuiTheme({
     body1: {
       fontFamily: "Be Vietnam",
       fontSize: "18px",
+      color: grayishBlue,
+      fontWeight: 300,
+    },
+    body2: {
+      fontFamily: "Be Vietnam",
+      fontSize: "16px",
       color: grayishBlue,
       fontWeight: 300,
     },

@@ -8,8 +8,9 @@ import bgDesktop from "../images/bg-tablet-pattern.svg";
 import Banner from "./Banner";
 import { useTheme } from "@material-ui/core/styles";
 import Section from "./Section";
+import Testimonials from "./Testimonials";
+import Callout from "./Callout";
 
-//FFF0EC
 export default function App() {
   const theme1 = useTheme();
   const matches = useMediaQuery(theme1.breakpoints.down("md"));
@@ -30,6 +31,8 @@ export default function App() {
       <Header />
       <Banner />
       <Section />
+      <Testimonials />
+      <Callout />
       <Footer />
     </ThemeProvider>
   );
